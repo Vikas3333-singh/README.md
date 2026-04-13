@@ -1,72 +1,92 @@
 🔧 Remote Support Toolkit
 
-Scripts and utilities designed to accelerate L2 remote troubleshooting workflows for Windows environments.
+A powerful collection of scripts and utilities designed to streamline L2 remote troubleshooting for Windows environments.
+
+---
 
 📌 Overview
 
-This toolkit is built to help IT support engineers quickly diagnose and resolve common system issues during remote sessions. It reduces manual effort, improves response time, and standardises troubleshooting steps.
+The Remote Support Toolkit is built for IT Support Engineers and EUC professionals to efficiently diagnose, troubleshoot, and resolve common Windows system issues during remote sessions.
+
+It reduces manual effort, speeds up resolution time, and standardises day-to-day support operations.
 
 ---
 
-🚀 Key Features
+🚀 Features
 
-* ⚡ Automated system health checks
-* 🧹 Temp file cleanup & performance optimization
-* 🛠️ Common issue fix scripts (network, services, updates)
-* 🔍 Quick diagnostics for CPU, RAM, disk usage
-* 📡 Network troubleshooting tools (IP, DNS, connectivity)
-* 🔐 Basic security checks (antivirus status, updates)
-
----
-
-🧰 Included Tools
-
-* `windows_maintenance_final.bat` – All-in-one maintenance script
-* System info & diagnostics scripts
-* Network reset utilities
-* Cleanup & optimization scripts
+- ⚡ Automated system health checks  
+- 🧹 Temporary file cleanup and performance optimisation  
+- 🛠️ One-click fixes for common Windows issues  
+- 🔍 Real-time system diagnostics (CPU, RAM, Disk)  
+- 📡 Network troubleshooting (IP reset, DNS fix, connectivity checks)  
+- 🔐 Basic security validation (antivirus and Windows Update status)  
 
 ---
 
-🎯 Use Case
+🧰 Toolkit Components
 
-Designed for:
-
-* L2 Desktop Support Engineers
-* EUC / IT Support Teams
-* Remote troubleshooting scenarios
-* Service desk efficiency improvement
-
----
-
-💡 Benefits
-
-* Saves troubleshooting time
-* Reduces repetitive manual steps
-* Improves consistency in issue resolution
-* Easy to use during remote sessions
+| Script Name | Description |
+|------------|------------|
+| windows_maintenance_final.bat | All-in-one maintenance and troubleshooting script |
+| System Info Tool | Fetches system configuration and status |
+| Network Fix Scripts | Resets IP, flushes DNS, fixes connectivity issues |
+| Cleanup Utility | Clears temp/cache files to improve performance |
 
 ---
 
-⚙️ How to Use
+🎯 Use Cases
 
-1. Download or clone the repository
-2. Run scripts as Administrator
-3. Follow on-screen prompts
-4. Review generated output/logs
+- L2 Desktop Support troubleshooting  
+- Remote IT support sessions  
+- Incident resolution on Windows endpoints  
+- EUC (End User Computing) operations  
+- Improving Service Desk efficiency during peak load  
 
 ---
 
-📈 Future Enhancements
+📈 Benefits
 
-* PowerShell-based advanced toolkit
-* GUI version for easier execution
-* Integration with Intune / SCCM
-* Logging dashboard
+- ⏱️ Faster issue resolution by automating common troubleshooting steps  
+- 🔁 Reduces repetitive manual work for L2 support engineers  
+- 📊 Improves consistency and accuracy in issue diagnosis  
+- 💻 Easy to use during remote support sessions  
+
+---
+
+🛣️ Roadmap (Future Enhancements)
+
+- PowerShell-based advanced automation toolkit  
+- GUI-based interface for improved usability  
+- Integration with Microsoft Intune and SCCM  
+- Centralised logging and reporting dashboard  
+- AI-based issue detection and automated resolution  
+
+---
+
+🤝 Contribution
+
+Contributions are welcome!
+
+To contribute:
+
+1. Fork the repository  
+2. Create a feature branch (`feature/your-feature-name`)  
+3. Commit your changes with a clear, descriptive message  
+4. Push your branch to GitHub  
+5. Open a Pull Request  
 
 ---
 
 👨‍💻 Author
 
-**Vikas Singh**
-Application Support / EUC Engineer
+Vikas Singh 
+EUC Engineer | Application Support Specialist  
+
+⚙️ How to Use
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/remote-support-toolkit.git
+
+# Run script (as Administrator)
+windows_maintenance_final.bat
