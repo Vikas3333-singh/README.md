@@ -1,6 +1,6 @@
 🔧 Remote Support Toolkit
 
-**Scripts and utilities designed to accelerate L2 remote troubleshooting workflows for Windows environments.**
+Scripts and utilities designed to accelerate L2 remote troubleshooting workflows for Windows environments.
 
 📌 Overview
 
